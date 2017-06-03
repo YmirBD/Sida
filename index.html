@@ -15,7 +15,18 @@
     <title>Ýmir</title>
     </head>
     <body>
+    <button class="dropdown-button btn-floating btn-sm waves-effect waves-light blue lighten-1" href="#" data-activates="dropdown1" align="right" id="fixedbutton"><i class="large material-icons">open_in_new</i></button>
+    <ul id='dropdown1' class='dropdown-content'>
+    <li><a disabled>Verkefni:</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Verkefni 1</a></li>
+    <li><a href="#!">Verkefni 2</a></li>
+    </ul>
     <style>
+    #fixedbutton {
+    position: fixed;
+    right: 30px; 
+    }
     body {
     background: url(https://scontent.cdninstagram.com/t51.2885-15/e35/18581095_539984586390445_1857545799009828864_n.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
